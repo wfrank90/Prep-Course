@@ -262,9 +262,13 @@ retornarPerimetro(3);
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+return (base * altura) / 2;
 }
+let base = 3;
+let height = 4;
+let area = areaDelTriangulo(base, height);
 
+console.log(area);
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
